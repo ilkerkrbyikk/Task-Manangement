@@ -1,0 +1,92 @@
+# Java
+*.class
+*.jar
+*.war
+*.ear
+*.iml
+*.log
+
+# Maven
+target/
+*.mvn/
+!.mvn/wrapper/maven-wrapper.jar
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+
+# Gradle
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+!gradle/wrapper/gradle-wrapper.properties
+*.gradle
+*.lock
+
+# Spring Boot
+spring-boot-*.jar
+spring-boot-*.war
+
+# IDE'ler
+.idea/
+*.ipr
+*.iws
+*.project
+*.classpath
+.settings/
+*.sublime-project
+*.sublime-workspace
+.vscode/
+
+# Kütüphaneler
+lib/
+libs/
+
+# Test
+*.hprof
+*.junit/
+*.test/
+*.coverage
+*.gcda
+*.gcno
+*.gcov
+
+# Çıktı dosyaları
+*.out
+*.exe
+*.dll
+*.so
+*.dSYM/
+*.pdb
+*.mdb
+
+# Log dosyaları
+logs/
+
+# Geçici dosyalar
+*.tmp
+*.bak
+*.swp
+*.swo
+
+# Çalışma alanı dosyaları
+*.pid
+*.seed
+*.tgz
+*.zip
+*.tar.gz
+*.rar
+*.7z
+
+# Çevresel değişkenler
+.env
+.env.local
+.env.*.local
+
+# Diğer
+*.orig
+*.rej
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
