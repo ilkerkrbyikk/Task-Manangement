@@ -1,4 +1,7 @@
 package com.ilker.submission_service.exception;
 
-public class TaskSubNotFoundException {
+public class TaskSubNotFoundException extends RuntimeException {
+    public TaskSubNotFoundException(String s) {
+        super(s);
+    }
 }
